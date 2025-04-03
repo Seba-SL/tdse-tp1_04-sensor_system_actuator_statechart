@@ -176,72 +176,6 @@
           "anchor": {
             "name": "topLeft",
             "args": {
-              "dx": 120,
-              "dy": 37,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_LED_01_OFF\n"
-              }
-            },
-            "position": {}
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2"
-              }
-            }
-          },
-          {
-            "attrs": {}
-          },
-          {
-            "attrs": {}
-          }
-        ],
-        "id": "77eb8e24-df92-49c9-8573-5d74a5842d04",
-        "z": 16,
-        "vertices": [
-          {
-            "x": 360,
-            "y": 230
-          },
-          {
-            "x": 440,
-            "y": 370
-          }
-        ],
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "36b8548a-74b1-4925-ae23-291c03231ee6"
-        },
-        "target": {
-          "id": "db372094-acc6-467b-b44d-495606208445",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
               "dx": 10,
               "dy": 37,
               "rotate": true
@@ -339,7 +273,7 @@
                 "opacity": 1
               },
               "label": {
-                "text": "3"
+                "text": "2"
               }
             }
           },
@@ -433,6 +367,72 @@
           {
             "x": 220,
             "y": 480
+          }
+        ],
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "db372094-acc6-467b-b44d-495606208445"
+        },
+        "target": {
+          "id": "36b8548a-74b1-4925-ae23-291c03231ee6",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 110,
+              "dy": 30,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_LED_01_OFF"
+              }
+            },
+            "position": {}
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2"
+              }
+            }
+          },
+          {
+            "attrs": {}
+          },
+          {
+            "attrs": {}
+          }
+        ],
+        "id": "7985c45d-f1cb-4dc9-875b-f8ccdfa937cb",
+        "z": 19,
+        "vertices": [
+          {
+            "x": 430,
+            "y": 560
+          },
+          {
+            "x": 430,
+            "y": 400
           }
         ],
         "attrs": {}
